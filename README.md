@@ -1,8 +1,9 @@
 # Spoken Language Classification
 
 
-This repository contains some models pretrained on the [http://bark.phon.ioc.ee/voxlingua107/](Voxlingua107) dataset to be used for spoken (audio based) language classification.
-Three models are provided.
+This repository contains some models pretrained on the [http://bark.phon.ioc.ee/voxlingua107](Voxlingua107) dataset to be used for spoken (audio based) language classification.
+The dataset (and therefore the models) can distinguish between 107 different types of languages.
+Four models are provided ( See below ).
 
 
 ## Usage
