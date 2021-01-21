@@ -27,3 +27,12 @@ Four models were pretrained and can be chosen as the back-end:
 3. MobilenetV2: A mobilenet implementation for audio classification.
 4. CNNVAD: A model that simultaneously does VAD and classification. The VAD model is taken from [GPV](https://github.com/RicherMans/Datadriven-GPVAD) and [Data-driven GPVAD](https://github.com/RicherMans/Datadriven-GPVAD). Model training has been done by fine-tuning both VAD and Language classification models. The back-end model here is the default CNN6.
 
+Since I don't have access to other datasets for cross-dataset evaluation, I provide the current performance on my held-out cross-validation dataset:
+
+| Model       | Precision | Recall | Accuracy |
+|-------------|-----------|--------|----------|
+| CNN6        | 81.7      | 84.4   | 83.6     |
+| CNN10       | 89.9      | 90.9   | 90.8     |
+| MobileNetV2 | 80.0      | 80.1   | 79.3     |
+| CNNVAD      | 81.0      | 82.4   | 82.9     |
+
